@@ -12,7 +12,7 @@ Taufik Jaka Lesmana : Menginisialisasi dan mengembangkan class yang digunakan da
 
 Aullya Hanan Wulandari : Membuat dan menghubungkan program dengan database SQLite
 
-Muhammad Sultan Raisyah : Mendesain dan membuat GUI menggunakan JafaFX dan Scene Builder
+Muhammad Sultan Raisyah : Mendesain dan membuat GUI menggunakan JavaFX dan Scene Builder
 
 ```Language
 classDiagram
