@@ -82,4 +82,29 @@ class DBHelper{
 
 ![plot](ClassDiagram.png)
 
+```Language
+erDiagram
+           Nasbaah ||..|| INDIVIDU : is
+           Nasbaah ||--|| PERUSAHAAN : is
+           Nasbaah ||--|{ REKENING : "has"
+           Nasbaah {
+               int id_nasabah
+               string nama
+               string alamat
+           }
+           INDIVIDU{
+               int id_nasabah
+               long nik
+               long npwp
+           }
+           PERUSAHAAN{
+               int id_nasabah
+               string nib
+           }
+           REKENING{
+               int noRekening
+               double saldo
+               int id_nasabah
+           }
+```
 ![plot](ERDiagram.png)
