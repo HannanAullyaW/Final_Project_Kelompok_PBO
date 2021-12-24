@@ -81,3 +81,5 @@ class DBHelper{
 ```
 
 ![plot](ClassDiagram.png)
+
+![plot](ERDiagram.png)
