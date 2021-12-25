@@ -1,0 +1,24 @@
+"CREATE TABLE IF NOT EXISTS Nasabah (" +
+                "    id_nasabah INT (20)      PRIMARY KEY," +
+                "    nama       VARCHAR (50)," +
+                "    alamat     VARCHAR (100) " +
+                ");" +
+                "CREATE TABLE IF NOT EXISTS individual (" +
+                "    id_nasabah INT (20) PRIMARY KEY" +
+                "                        REFERENCES Nasabah (id_nasabah) ON DELETE RESTRICT" +
+                "                                                        ON UPDATE CASCADE," +
+                "    nik        INT," +
+                "    npwp       INT" +
+                ");" +
+                "CREATE TABLE IF NOT EXISTS perusahaan (" +
+                "    id_nasabah INT (20)     PRIMARY KEY" +
+                "                            REFERENCES Nasabah (id_nasabah) ON DELETE RESTRICT" +
+                "                                                            ON UPDATE CASCADE," +
+                "    nib        VARCHAR (50) " +
+                ");" +
+                "CREATE TABLE IF NOT EXISTS Rekening (" +
+                "    noRekening INT (20) PRIMARY KEY," +
+                "    saldo      DOUBLE," +
+                "    id_nasabah INT (20) REFERENCES Nasabah (id_nasabah) ON DELETE RESTRICT" +
+                "                                                        ON UPDATE CASCADE" +
+                ");";
