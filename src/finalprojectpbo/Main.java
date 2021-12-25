@@ -20,10 +20,10 @@ public class Main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("view/view.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("view/desain.fxml"));
         
         Scene scene = new Scene(root);
-        stage.setTitle("Sistem Nasabah Koperasi");
+        stage.setTitle("sistem nasabah koperasi");
         stage.getIcons().add(new Image("/finalprojectpbo/logo/koperasi-1.png"));
         stage.setScene(scene);
         stage.show();
