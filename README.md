@@ -21,6 +21,7 @@ Anggota :
 - scene builder
 - sqlite studio
 - netbean editor
+- JDK 1.8
 
 # Class Diagram
 
