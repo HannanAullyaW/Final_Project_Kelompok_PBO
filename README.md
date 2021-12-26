@@ -22,6 +22,8 @@ Anggota :
 - sqlite studio
 - netbean editor
 
+# Class Diagram
+
 ```Language
 classDiagram
 
@@ -90,6 +92,8 @@ class DBHelper{
 ```
 
 ![plot](ClassDiagram.png)
+
+# ER Diagram
 
 ```Language
 erDiagram
