@@ -14,6 +14,14 @@ Aullya Hanan Wulandari : Membuat dan menghubungkan program dengan database SQLit
 
 Muhammad Sultan Raisyah : Mendesain dan membuat GUI menggunakan JavaFX dan Scene Builder
 
+Libraries :
+
+- mysql-connector-java-5.1.xx.jar
+- sqlite-jdbc-3.xx.jar
+- scene builder
+- sqlite studio
+- netbean editor
+
 ```Language
 classDiagram
 
