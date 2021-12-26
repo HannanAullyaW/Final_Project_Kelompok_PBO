@@ -2,9 +2,9 @@
 
 Anggota :
 
-Aullya Hanan Wulandari 2017051079
-Muhammad Sultan Raisyah 2057051019
-Taufik Jaka Lesmana 1717051068
+- Aullya Hanan Wulandari  2017051079
+- Muhammad Sultan Raisyah 2057051019
+- Taufik Jaka Lesmana     1717051068
 
 # Pembagian Tugas :
 
@@ -14,7 +14,7 @@ Aullya Hanan Wulandari : Membuat dan menghubungkan program dengan database SQLit
 
 Muhammad Sultan Raisyah : Mendesain dan membuat GUI menggunakan JavaFX dan Scene Builder
 
-Libraries :
+# Libraries :
 
 - mysql-connector-java-5.1.xx.jar
 - sqlite-jdbc-3.xx.jar
