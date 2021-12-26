@@ -14,7 +14,7 @@ Anggota :
 
 - Muhammad Sultan Raisyah : Mendesain dan membuat GUI menggunakan JavaFX dan Scene Builder
 
-# Libraries :
+# Libraries and Tools of this project:
 
 - mysql-connector-java-5.1.xx.jar
 - sqlite-jdbc-3.xx.jar
