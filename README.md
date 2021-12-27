@@ -8,9 +8,9 @@ Anggota :
 
 # Pembagian Tugas :
 
-- Taufik Jaka Lesmana : Menginisialisasi dan mengembangkan class yang digunakan dalam project
-
 - Aullya Hanan Wulandari : Membuat dan menghubungkan program dengan database SQLite
+
+- Taufik Jaka Lesmana : Menginisialisasi dan mengembangkan class yang digunakan dalam project
 
 - Muhammad Sultan Raisyah : Mendesain dan membuat GUI menggunakan JavaFX dan Scene Builder
 
